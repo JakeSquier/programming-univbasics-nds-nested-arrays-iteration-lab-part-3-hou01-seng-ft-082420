@@ -5,7 +5,7 @@ def join_nested_strings(src)
   for row in src do
     for col in src[row] do
       element = src[row][col]
-      if element.is_a Integer == false
+      if element.is_a String
         str = "#{src[row][col]} "
       end
     end
